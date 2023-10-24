@@ -1,0 +1,173 @@
+#home h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: 10%;
+    color: rgb(4, 3, 51);
+    font-size: 50px;
+}
+#home p{
+    font-family:sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+nav {
+    padding-top: 21px;
+    height: 40px;
+    overflow: hidden;
+    position: fixed;
+    width: auto;
+  }
+nav,ul,li{
+    display: inline;
+    padding-left: 20px;
+    font-family: cursive;
+    
+}
+nav a {
+    display: inline;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 1.1em;
+    color: #000b0f;
+
+}
+nav a:hover{
+    background-color: rgb(55, 89, 95);
+    height: max-content;
+    padding-top: 20px;
+}
+#home{
+    background-image:
+    linear-gradient(to bottom, rgba(189, 232, 243, 0.52), rgba(114, 21, 91, 0.73)),url(travel.webp); 
+    max-width: 100%;
+    max-height: 80%;
+    padding-bottom: 20%;
+}
+#home marquee{
+    padding-top: 5%;
+}
+#home p{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-display:initial;
+    text-align: center;
+    color: rgb(2, 2, 44);
+}
+#home h1{
+    padding-top: 10%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#about{
+    background-image: linear-gradient(to bottom, rgba(194, 249, 204, 0.52), rgba(150, 211, 162, 0.73)),url(about.jpg); 
+    background-size: cover;
+   
+    padding-bottom: 20%;
+}
+#about h2{
+    text-align: center;
+    padding-top: 2%;
+}
+#about p{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: #000000;
+}
+div.box1 {
+    margin: 10px;
+    background-color: #c8bcbc;
+    border: 1px solid black ;
+    opacity: 0.6;
+    
+  }
+  div.box{
+    display: inline;
+  }
+  
+  div.box1 p {
+    margin: 2%;
+    font-weight:300;
+    color: #000000;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  #contact{
+    background-image:linear-gradient(to bottom, rgba(218, 249, 243, 0.52), rgba(33, 124, 118, 0.73))  ;
+  }
+  #contact h2{
+    text-align: center;
+    padding-top: 2%;
+  }
+  #contact p{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+  }
+  #contact h3{
+    text-align: center;
+    font-style: italic;
+  }
+  #home,marquee{
+    padding-top: 2%;
+  }
+  
+  input[type=text], select, textarea  {
+    text-align: center;
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=email], select, textarea  {
+    text-align: center;
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    text-align: center;
+    background-color: #0c382f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #81c8e5;
+  }
+  #con{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3%;
+    border-radius: 5px;
+    background-color: #cfe9e6;
+    padding: 20px;
+    border: 2px solid black;
+    box-sizing:20px;
+  }
+  #contact a{
+    display: inline;
+    padding-left: 20%;
+    color: #000000;
+    font-size: 40px;
+    text-decoration: none;
+  }

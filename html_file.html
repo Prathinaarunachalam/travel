@@ -10,13 +10,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    
+    <script src="travel.js"></script>
 </head>
+
 <body>
     <header>
         <nav>
             <ul style="list-style: none;">
-                <li>GO TO TRIP</li>
+                <li style="font-size: 20px;">GO TO TRIP</li>
                 <li><a href="#home"><i class="fa fa-fw fa-home" style="color: black;"></i>HOME</a></li>
                 <li><a href="#about"><i class="fa fa-fw fa-info" style="color: black;"></i>ABOUT</a></li>
                 <li><a href="#contact"><i class="fa fa-fw fa-phone" style="color: black;"></i>CONTACT</a></li>
@@ -58,25 +59,25 @@
           </div>  
     </section>
     <section id="contact">
-        <script src="travel.js"></script>
         <h2>CONTACT US</h2>
         <P>To enjoy your travel,contact us</P>
         <marquee behaviour="scroll" direction="right" ><i class="fa fa-fw fa-plane fa-2x" style="color: rgb(6, 55, 49); opacity: 0.8;" ></i></marquee>
         <div id="con">
             <form action="#">
                 <label for="fname">FIRSTNAME</label><br><br>
-                <input type="text" id="fname" name="firstname" placeholder="Enter your firstname........"><br><br>
+                <input type="text" id="fname" name="firstname" placeholder="Enter your firstname........" onfocus="changecolor()"><br><br>
                 <label for="lname">LASTNAME</label><br><br>
-                <input type="text" id="lname" name="lastname" placeholder="Enter your lastname........"><br><br>
+                <input type="text" id="lname" name="lastname" placeholder="Enter your lastname........" ><br><br>
                 <label for="email" id="email">EMAIL</label><br><br>
-                <input type="email" id="email" name="email" placeholder="Enter your email id......."><br><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email id......." ><br><br>
                 <label for="message">MESSAGE</label><br><br>
                 <textarea id="message" name="message" placeholder="Message Us..." style="height: 150px; width: 300px;"></textarea><br>
                 <button type="submit" onclick="mytrav()" style="color: black; background-color: rgb(185, 233, 217); border-radius: 20px;">submit</button>
 
                 
             </form>
-          
+         
+
         </div>
         <h3>Mobile no. : +91 7896798790</h3>
         <h3>Email ID   : test@gmail.com</h3>
@@ -85,5 +86,25 @@
         <a href="#" class="fa fa-instagram"></a>
         <a href="#" class="fa fa-twitter"></a>
     </section>
-</body>
+    <button onmouseover="onmover()">click</button>
+    <button onmousedown="onmdown()">click</button>
+    <button onmouseleave="onmleave()">click</button>
+    <button ondblclick="ondbcl()">click</button>
+    <button onmouseover="objs()">objects</button>
+    <button onmouseover="trial() ">objects</button>
+    <div id ="color" style="width: 100px; height: 100px; color: rgb(239, 65, 65); margin-left: 2px;">hii</div>
+    <button onclick="change()">click me</button>
+    <input type="color" id="col">
+    <script>
+      function change()
+      {
+        let col = document.getElementById("col");
+        let output=col.value;
+        let color = document.getElementById("color");
+        color.style.backgroundColor=output;
+      }
+    </script>
+
+    
+  </body>
 </html>

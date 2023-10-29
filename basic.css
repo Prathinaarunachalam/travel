@@ -17,7 +17,7 @@ nav {
     position: fixed;
     width: auto;
   }
-nav,ul,li{
+nav ul li{
     display: inline;
     padding-left: 20px;
     font-family: cursive;
